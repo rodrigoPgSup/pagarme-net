@@ -36,6 +36,8 @@ namespace Playground
         public static void Main(string[] args)
         {
 			PagarMeService.DefaultApiKey = "ak_test_TSgC3nvXtdYnDoGKgNLIOfk3TFfkl9";
+
+
 			PagarMeService.DefaultEncryptionKey = "ek_test_UT6AN4fDN3BCUgo6kxUiOq6S20dbKc";
 
 
@@ -86,6 +88,7 @@ namespace Playground
 			t.PaymentMethod = PaymentMethod.Boleto;
 			t.Amount = 10000;
 			t.Save();
+
         }
     }
 }
